@@ -142,6 +142,7 @@ Tabel Weighting Jenis Kelamin
 | **Total**      | 154      | 32     | 1.0000            | 1.0000          | -          |
    
 Berdasarkan perhitungan pembobotan (weighting) berdasarkan jenis kelamin, diperoleh bobot untuk responden laki-laki sebesar 0,8052 dan responden perempuan sebesar 1,031. Nilai bobot dihitung menggunakan perbandingan antara proporsi populasi dengan proporsi sampel, sehingga bobot digunakan untuk menyesuaikan distribusi sampel agar lebih mendekati kondisi populasi sebenarnya. Bobot laki-laki yang lebih kecil dari 1 menunjukkan bahwa proporsi laki-laki dalam sampel lebih besar dibandingkan proporsi laki-laki pada populasi, sehingga perlu dikurangi pengaruhnya dalam estimasi. Sebaliknya, bobot perempuan yang lebih besar dari 1 menunjukkan bahwa proporsi perempuan dalam sampel lebih kecil dibandingkan proporsi perempuan pada populasi, sehingga perlu diberikan penyesuaian atau penambahan bobot agar representasi sampel menjadi lebih seimbang terhadap populasi.
+
 ## Perbandingan Estimasi 
 
 | Metode Estimasi | Persentase |
