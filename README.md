@@ -133,27 +133,26 @@ Membandingkan distribusi responden dengan distribusi populasi sebenarnya.
    Wi = Proporsi populasi / proporsi sampel
    - WL = 0,1948 / 0,2188 = 0,8052
    - WP = 0,8052 / 0,7812 = 1,031
-5. TABEL
-   | Jenis Kelamin | Proporsi Populasi | Proporsi Sampel | Weight (Wi) | Keterangan |
-   |:--------------|------------------:|----------------:|-------------:|:-----------|
-   | Laki-laki     | 0,1948            | 0,2188          | 0,8052       | Overrepresented |
-   | Perempuan     | 0,8052            | 0,7812          | 1,0310       | Underrepresented |
+Tabel Weighting Jenis Kelamin
+
+| Jenis Kelamin | Populasi | Sampel | Proporsi Populasi | Proporsi Sampel | Weight (W) |
+|----------------|----------|--------|-------------------|-----------------|------------|
+| Laki-laki      | 30       | 7      | 0.1948            | 0.2188          | 0.890      |
+| Perempuan      | 124      | 25     | 0.8052            | 0.7812          | 1.031      |
+| **Total**      | 154      | 32     | 1.0000            | 1.0000          | -          |
    
 Berdasarkan perhitungan pembobotan (weighting) berdasarkan jenis kelamin, diperoleh bobot untuk responden laki-laki sebesar 0,8052 dan responden perempuan sebesar 1,031. Nilai bobot dihitung menggunakan perbandingan antara proporsi populasi dengan proporsi sampel, sehingga bobot digunakan untuk menyesuaikan distribusi sampel agar lebih mendekati kondisi populasi sebenarnya. Bobot laki-laki yang lebih kecil dari 1 menunjukkan bahwa proporsi laki-laki dalam sampel lebih besar dibandingkan proporsi laki-laki pada populasi, sehingga perlu dikurangi pengaruhnya dalam estimasi. Sebaliknya, bobot perempuan yang lebih besar dari 1 menunjukkan bahwa proporsi perempuan dalam sampel lebih kecil dibandingkan proporsi perempuan pada populasi, sehingga perlu diberikan penyesuaian atau penambahan bobot agar representasi sampel menjadi lebih seimbang terhadap populasi.
 ## Perbandingan Estimasi 
-| Item | Estimasi Naive | Estimasi Weighted | Selisih | Keterangan |
-|:-----|----------------:|------------------:|---------:|:------------|
-| P1   | 0,531 | 0,528 | -0,003 | Hampir sama |
-| P2   | 0,812 | 0,816 | +0,004 | Weighted sedikit lebih tinggi |
-| P3   | 0,375 | 0,381 | +0,006 | Weighted sedikit lebih tinggi |
-| P4   | 0,594 | 0,587 | -0,007 | Weighted sedikit lebih rendah |
-| P5   | 0,719 | 0,724 | +0,005 | Weighted sedikit lebih tinggi |
-| P6   | 0,562 | 0,558 | -0,004 | Hampir sama |
-| P7   | 0,688 | 0,691 | +0,003 | Hampir sama |
-| P8   | 0,594 | 0,598 | +0,004 | Hampir sama |
-| P9   | 0,688 | 0,684 | -0,004 | Hampir sama |
-| P10  | 0,531 | 0,526 | -0,005 | Hampir sama |
 
+| Metode Estimasi | Persentase |
+|:----------------|-----------:|
+| Naive Estimation | 60,9% |
+| Weighted Estimation | 60,7% |
+| Selisih | -0,2% |
 
+Berdasarkan hasil perbandingan, nilai naive estimation sebesar 60,9%, sedangkan weighted estimation sebesar 60,7%. Setelah dilakukan pembobotan berdasarkan jenis kelamin, nilai estimasi mengalami sedikit penurunan sebesar 0,2%. Perbedaan yang sangat kecil ini menunjukkan bahwa distribusi sampel sudah cukup mendekati distribusi populasi sehingga proses weighting tidak memberikan perubahan yang signifikan terhadap hasil estimasi.
 
-   
+## Kesimpulan
+Berdasarkan hasil penelitian mengenai tingkat kepuasan mahasiswa Program Studi Statistika terhadap sarana dan prasarana di Universitas Mataram menggunakan metode *non-probability sampling*, dapat disimpulkan bahwa secara umum mahasiswa memiliki tingkat kepuasan yang berada pada kategori cukup baik. Hasil uji validitas menunjukkan bahwa seluruh item pernyataan dinyatakan valid karena memiliki nilai ( r ) hitung lebih besar dari ( r ) tabel, sedangkan hasil uji reliabilitas menunjukkan nilai Cronbach’s Alpha sebesar 0,857 yang berarti instrumen penelitian sangat reliabel dan layak digunakan.
+Hasil analisis deskriptif menunjukkan bahwa mayoritas responden memberikan tanggapan pada kategori setuju terhadap sebagian besar indikator sarana dan prasarana kampus. Pada analisis *naive estimation* diperoleh nilai keseluruhan sebesar 0,609 atau 60,9%, yang menunjukkan bahwa tingkat kepuasan mahasiswa berada pada kategori cukup. Item dengan tingkat kepuasan tertinggi terdapat pada indikator kebersihan lingkungan universitas (P2) dengan nilai 0,812, sedangkan indikator kebersihan dan kelayakan fasilitas toilet (P3) memperoleh nilai terendah yaitu 0,375 sehingga menjadi aspek yang perlu mendapat perhatian lebih lanjut dari pihak universitas.
+Hasil *weighted estimation* berdasarkan jenis kelamin menunjukkan nilai sebesar 60,7%, dengan selisih yang sangat kecil dibandingkan *naive estimation*, yaitu sebesar -0,2%. Hal ini menunjukkan bahwa distribusi sampel sudah cukup merepresentasikan kondisi populasi sehingga proses pembobotan tidak memberikan perubahan yang signifikan terhadap hasil estimasi. Dengan demikian, dapat disimpulkan bahwa mahasiswa Program Studi Statistika Universitas Mataram secara umum merasa cukup puas terhadap sarana dan prasarana yang tersedia, meskipun masih terdapat beberapa fasilitas yang perlu ditingkatkan agar kualitas pelayanan dan kenyamanan mahasiswa menjadi lebih optimal.   
