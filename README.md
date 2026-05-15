@@ -36,7 +36,7 @@ Tabel Hasil Validitas
 | P9       | 0,865    | 0,349   | Valid      |
 | P10      | 0,871    | 0,349   | Valid      |
 
-Berdasarkan hasil uji validitas terhadap 10 item pernyataan, seluruh item menunjukkan nilai r hitung yang lebih besar dibandingkan dengan r tabel yaitu 0,349. Nilai r hitung terendah terdapat pada item X1 sebesar 0,531, sedangkan nilai tertinggi terdapat pada item X10 sebesar 0,871. Karena seluruh nilai r hitung pada setiap item berada di atas r tabel, maka dapat disimpulkan bahwa seluruh butir pernyataan dalam kuesioner dinyatakan valid.
+Berdasarkan hasil uji validitas terhadap 10 item pernyataan, seluruh item menunjukkan nilai r hitung yang lebih besar dibandingkan dengan r tabel yaitu 0,349. Nilai r hitung terendah terdapat pada item P1 sebesar 0,531, sedangkan nilai tertinggi terdapat pada item P10 sebesar 0,871. Karena seluruh nilai r hitung pada setiap item berada di atas r tabel, maka dapat disimpulkan bahwa seluruh butir pernyataan dalam kuesioner dinyatakan valid.
 Hal ini menunjukkan bahwa setiap item mampu mengukur variabel yang diteliti secara tepat dan sesuai dengan konstruk yang diharapkan. Dengan demikian, instrumen penelitian yang digunakan telah memenuhi syarat validitas dan layak digunakan untuk pengumpulan data dalam penelitian.
 
 #### Uji Reliabilitas
