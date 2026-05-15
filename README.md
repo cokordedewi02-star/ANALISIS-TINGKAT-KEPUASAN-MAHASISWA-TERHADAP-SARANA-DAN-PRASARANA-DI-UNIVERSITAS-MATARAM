@@ -25,16 +25,16 @@ Dimensi (Sarana dan Prasarana Kampus)
 Tabel Hasil Validitas
 | Variabel | r hitung | r tabel | Keterangan |
 |----------|----------|---------|------------|
-| X1       | 0,531    | 0,349   | Valid      |
-| X2       | 0,666    | 0,349   | Valid      |
-| X3       | 0,615    | 0,349   | Valid      |
-| X4       | 0,584    | 0,349   | Valid      |
-| X5       | 0,613    | 0,349   | Valid      |
-| X6       | 0,534    | 0,349   | Valid      |
-| X7       | 0,741    | 0,349   | Valid      |
-| X8       | 0,683    | 0,349   | Valid      |
-| X9       | 0,865    | 0,349   | Valid      |
-| X10      | 0,871    | 0,349   | Valid      |
+| P1       | 0,531    | 0,349   | Valid      |
+| P2       | 0,666    | 0,349   | Valid      |
+| P3       | 0,615    | 0,349   | Valid      |
+| P4       | 0,584    | 0,349   | Valid      |
+| P5       | 0,613    | 0,349   | Valid      |
+| P6       | 0,534    | 0,349   | Valid      |
+| P7       | 0,741    | 0,349   | Valid      |
+| P8       | 0,683    | 0,349   | Valid      |
+| P9       | 0,865    | 0,349   | Valid      |
+| P10      | 0,871    | 0,349   | Valid      |
 
 Berdasarkan hasil uji validitas terhadap 10 item pernyataan, seluruh item menunjukkan nilai r hitung yang lebih besar dibandingkan dengan r tabel yaitu 0,349. Nilai r hitung terendah terdapat pada item X1 sebesar 0,531, sedangkan nilai tertinggi terdapat pada item X10 sebesar 0,871. Karena seluruh nilai r hitung pada setiap item berada di atas r tabel, maka dapat disimpulkan bahwa seluruh butir pernyataan dalam kuesioner dinyatakan valid.
 Hal ini menunjukkan bahwa setiap item mampu mengukur variabel yang diteliti secara tepat dan sesuai dengan konstruk yang diharapkan. Dengan demikian, instrumen penelitian yang digunakan telah memenuhi syarat validitas dan layak digunakan untuk pengumpulan data dalam penelitian.
